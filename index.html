@@ -1,0 +1,42 @@
+
+<style>
+	#block {
+		background: url('bg.jpg');
+		width: 100%;
+		height: 32px;
+
+	}
+
+	body {
+		background-position: 0px 0px;
+		background-repeat: repeat-x;
+	}
+
+	#man {
+		margin-top:20%;
+		background: url('SpriteSheet.png');
+		background-position-y: -44px;
+		width: 32px;
+		height: 40px;
+		margin-bottom: -7px;
+		position:relative;
+		display: inline-block;
+		z-index: 10;
+	}
+	#tree {
+		width: 50px;
+		height: 50px;
+		background: url('tree.png');
+		position:relative;
+		display: inline-block;
+		margin-bottom: -8px;
+	}
+
+</style>
+<body id="body" background='bbg.gif' >
+	<div id="man"></div>
+	<div id="block"></div>
+
+	<script src="movement.js"></script>
+
+</body>
